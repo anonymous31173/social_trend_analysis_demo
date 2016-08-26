@@ -33,7 +33,6 @@ def format_to_flac(wav_file, current_format):
     """
     raw_flac_name = wav_file.replace(current_format.lower(), 'wav')
     song = AudioSegment.from_file(wav_file, sample_width=2)
-    # song = AudioSegment.from_wav(wav_file)
 
     try:
         song.export(raw_flac_name, format='wav')

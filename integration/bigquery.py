@@ -7,7 +7,6 @@ Google Cloud Storage or Google BigQuery are both valid endpoints which can be us
 import secrets
 
 import uuid
-import json
 import os
 
 from oauth2client.service_account import ServiceAccountCredentials
